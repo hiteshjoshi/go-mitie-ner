@@ -1,7 +1,8 @@
 package ner
 
 /*
-#cgo LDFLAGS: -lmitie
+#cgo CFLAGS: -I/usr/local/lib/mitielib/mitielib/include
+#cgo LDFLAGS: -L/usr/local/lib -lmitie
 
 #include <stdlib.h>
 #include <stdio.h>
